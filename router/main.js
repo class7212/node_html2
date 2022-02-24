@@ -11,6 +11,18 @@ module.exports = function(app) {
      });
      app.get('/about',function(req,res){
         res.render('about.html');
+
+     app.get('/blog',function(req,res){
+        res.render('blog.html');
+
+     app.get('/sidebar-left',function(req,res){
+        res.render('sidebar-left.html');
+
+     app.get('/sidebar-right',function(req,res){
+        res.render('sidebar-right.html');
+     
+     app.get('/single',function(req,res){
+        res.render('single.html');
     });
      
     app.get('/listall', function (req, res) {
